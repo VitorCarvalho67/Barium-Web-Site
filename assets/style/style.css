@@ -152,6 +152,10 @@ main .box div button:hover{
     border: solid transparent 1px;
 }
 
+main .box img{
+    width: 60%;
+}
+
 .tech{
     display: flex;
     flex-direction: column;
