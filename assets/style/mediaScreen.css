@@ -1,0 +1,43 @@
+@media screen and (max-width: 1400px) {
+    header{
+        padding: 0 200px;
+    }
+
+    main .box div a{
+        font-size: 18px;
+    }
+
+    .tech{
+        padding: 20px 50px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    header{
+        padding: 0 100px;
+    }
+
+    main .box div a{
+        font-size: 16px;
+    }
+
+    main .box h1{
+        font-size: 40px;
+    }
+
+    main .box h2{
+        font-size: 25px;
+    }
+
+    main .box img{
+        width: 70%;
+    }
+
+    .tech{
+        padding: 20px 20px;
+    }
+
+    .tech div{
+        padding: 0 20px;
+    }
+}

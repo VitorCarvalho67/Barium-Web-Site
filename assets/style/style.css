@@ -46,7 +46,7 @@ header nav ul li{
     margin-left: 20px;
 }
 
-header nav ul li a{
+header nav ul li .a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -58,15 +58,15 @@ header nav ul li a{
     font-weight: 500;
 }
 
-header nav ul li a:hover{
+header nav ul li .a:hover{
     color: #e7332a;
 }
 
-header nav ul li a:active{
+header nav ul li .a:active{
     color: #e7332a;
 }
 
-header nav ul li button{
+header nav ul li .btn{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -83,7 +83,7 @@ header nav ul li button{
     border: solid transparent 1px;
 }
 
-header nav ul li button:hover{
+header nav ul li .btn:hover{
     background-color: transparent;
     color: #e7332a;
     border: solid #e7332a 1px;
@@ -130,7 +130,7 @@ main .box h2{
     margin-bottom: 20px;
 }
 
-main .box div button{
+main .box div a{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -146,7 +146,7 @@ main .box div button{
     cursor: pointer;
 }
 
-main .box div button:hover{
+main .box div a:hover{
     color: #cdd6f4;
     background-color: #e7332a;
     border: solid transparent 1px;
@@ -154,6 +154,10 @@ main .box div button:hover{
 
 main .box img{
     width: 60%;
+}
+
+@keyframes identifier {
+    
 }
 
 .tech{
