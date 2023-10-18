@@ -12,13 +12,17 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
     header{
         padding: 0 100px;
     }
 
     main .box div a{
         font-size: 16px;
+    }
+
+    main .box div{
+        width: 80%;
     }
 
     main .box h1{
@@ -39,5 +43,164 @@
 
     .tech div{
         padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    main .box img{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    header{
+        padding: 0 50px;
+    }
+
+    main .box div a{
+        font-size: 14px;
+    }
+
+    main .box div{
+        width: 90%;
+    }
+
+    main .box h1{
+        font-size: 35px;
+    }
+
+    main .box h2{
+        font-size: 20px;
+    }
+
+    main .box img{
+        width: 90%;
+    }
+
+    .tech{
+        padding: 20px 20px;
+    }
+
+    .tech div{
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    main{
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 20px 0px;
+    }
+
+    main .box{
+        width: 100%;
+        height: auto;
+        padding: 20px 20px;
+    }
+
+    main .box div{
+        width: 100%;
+        height: auto;
+        padding: 20px 0px;
+    }
+
+    main .box h1{
+        font-size: 30px;
+    }
+
+    main .box h2{
+        font-size: 18px;
+    }
+
+    main .box img{
+        width: 30%;
+    }
+
+    .tech{
+        padding: 20px 20px;
+        height: auto;
+
+    }
+
+    .tech div{
+        flex-direction: column;
+    }
+
+    .tech div img{
+        width: 80%;
+    }
+
+    .contribute{
+        padding: 20px 20px;
+        height: auto;
+    }
+
+    .contributeBox{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    header{
+        padding: 0 20px;
+    }
+
+    header div{
+        height: 50%;
+    }
+
+    header nav{
+        height: 50%;
+    }
+
+    header nav ul{
+        height: 100%;
+    }
+
+    header nav ul li{
+        height: 100%;
+    }
+
+    header nav ul li a{
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    main .box img{
+        width: 40%;
+    }
+
+    .tech div img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header div{
+        height: 40%;
+    }
+
+    header nav{
+        height: 50%;
+    }
+
+    main .box img{
+        width: 50%;
+    }
+
+    .tech div img{
+        width: 100%;
+    }
+
+    .contribute{
+        height: auto;
+    }
+    .contributeBox{
+        height: auto;
+        flex-direction: column;
     }
 }
