@@ -179,21 +179,18 @@
     }
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 500px) {
     header div{
         height: 50%;
         width: 40%;
-=======
+
 @media screen and (max-width: 600px) {
     header div{
         height: 40%;
->>>>>>> a441b87d628c1c4f8f27584792dd0effd8c3bbdb
     }
 
     header nav{
         height: 50%;
-<<<<<<< HEAD
         width: 70%;
         display: flex;
         flex-direction: row;
@@ -241,7 +238,7 @@
         height: auto;
         flex-direction: column;
     }
-<<<<<<< HEAD
+<<< HEAD
 }
 
 @media screen and (max-width: 450px) {

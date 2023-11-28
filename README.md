@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> a441b87d628c1c4f8f27584792dd0effd8c3bbdb
 <h1 align="center"> 
   BARIUM WEB SITE
 </h1>
