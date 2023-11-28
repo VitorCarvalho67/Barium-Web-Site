@@ -107,6 +107,13 @@ main .box{
     padding: 0 100px;
 }
 
+main .box video{
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 main .box div{
     display: flex;
     flex-direction: column;
@@ -160,17 +167,63 @@ main .box img{
     
 }
 
-.tech{
+.manual{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     background-color: rgba(30, 30, 46, 0.778);
-    height: 500px;
+    height: auto;
     padding: 20px 100px;
 }
 
-.tech h2{
+.manual nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.manual nav ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    margin-left: 20px;
+}
+
+.manual nav ul li .a{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    color: #e7332a;
+    background-color: transparent;
+    border: solid #e7332a 1px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+.manual nav ul li .a:hover{
+    color: #cdd6f4;
+    background-color: #e7332a;
+    border: solid transparent 1px;
+}
+
+#ativo{
+    color: #cdd6f4;
+    background-color: #e7332a;
+    border: solid transparent 1px;
+}
+
+.manual h2{
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -181,18 +234,61 @@ main .box img{
     margin-bottom: 20px;
 }
 
-.tech div{
+.manualBox{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    width: 100%;
-    padding: 0 100px;
+    padding: 0 20px;
+    height: 120px;
+    margin: 10px;
+    border-radius: 10px;
 }
 
-.tech div img{
-    width: 50%;
+.manualBox img{
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+    height: 100px;
+    min-height: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: contain;
+    background-color: #e7332a;
 }
+
+.manualInformation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.manualInformation h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #cdd6f4;
+    margin-bottom: 10px;
+}
+
+.manualInformation p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #cdd6f4;
+    margin-bottom: 10px;
+}
+
+.manualInformation a{
+    font-size: 15px;
+    font-weight: 500;
+    color: #e7332a;
+    margin-bottom: 10px;
+}
+
+
+
 
 .contribute{
     display: flex;

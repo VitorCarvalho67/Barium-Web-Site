@@ -7,7 +7,7 @@
         font-size: 18px;
     }
 
-    .tech{
+    .manual{
         padding: 20px 50px;
     }
 }
@@ -37,11 +37,11 @@
         width: 70%;
     }
 
-    .tech{
+    .manual{
         padding: 20px 20px;
     }
 
-    .tech div{
+    .manual div{
         padding: 0 20px;
     }
 }
@@ -77,11 +77,11 @@
         width: 90%;
     }
 
-    .tech{
+    .manual{
         padding: 20px 20px;
     }
 
-    .tech div{
+    .manual div{
         padding: 0 20px;
     }
 }
@@ -117,18 +117,25 @@
         width: 30%;
     }
 
-    .tech{
+    .manual{
         padding: 20px 20px;
         height: auto;
 
     }
 
-    .tech div{
-        flex-direction: column;
+    .manual nav ul li .a{
+        font-size: 15px;
+        padding: 4px 8px;
     }
 
-    .tech div img{
-        width: 80%;
+    .manual nav ul li .btn{
+        font-size: 15px;
+        padding: 4px 8px;
+    }
+
+    .manualBox{
+        height: auto;
+        width: 100%;
     }
 
     .contribute{
@@ -167,6 +174,14 @@
         height: 100%;
     }
 
+    .manual h2{
+        font-size: 25px;
+    }
+
+    .manual h3{
+        font-size: 16px;
+    }
+
 }
 
 @media screen and (max-width: 700px) {
@@ -174,26 +189,19 @@
         width: 40%;
     }
 
-    .tech div img{
+    .manual div img{
         width: 100%;
     }
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 500px) {
     header div{
         height: 50%;
         width: 40%;
-=======
-@media screen and (max-width: 600px) {
-    header div{
-        height: 40%;
->>>>>>> a441b87d628c1c4f8f27584792dd0effd8c3bbdb
     }
 
     header nav{
         height: 50%;
-<<<<<<< HEAD
         width: 70%;
         display: flex;
         flex-direction: row;
@@ -222,15 +230,9 @@
 
     main .box img{
         width: 40%;
-=======
     }
 
-    main .box img{
-        width: 50%;
->>>>>>> a441b87d628c1c4f8f27584792dd0effd8c3bbdb
-    }
-
-    .tech div img{
+    .manual div img{
         width: 100%;
     }
 
@@ -241,7 +243,6 @@
         height: auto;
         flex-direction: column;
     }
-<<<<<<< HEAD
 }
 
 @media screen and (max-width: 450px) {
@@ -258,8 +259,22 @@
         justify-content: space-between;
     }
 
+    .manual nav ul li .a{
+        font-size: 15px;
+        padding: 4px 8px;
+    }
+
+    .manual nav ul{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    .manual nav ul li{
+        margin: 10px 0px;
+    }
 }
 
-=======
-}
->>>>>>> a441b87d628c1c4f8f27584792dd0effd8c3bbdb
