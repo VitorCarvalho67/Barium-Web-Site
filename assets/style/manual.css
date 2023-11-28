@@ -107,7 +107,7 @@ main .box{
     padding: 0 100px;
 }
 
-main .box video{
+main .box iframe{
     width: 95%;
     height: 95%;
     object-fit: cover;
