@@ -108,10 +108,15 @@ main .box{
 }
 
 main .box iframe{
-    width: 95%;
-    height: 95%;
-    object-fit: cover;
+    width: 96%;
+    height: 96%;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    main .box:nth-child(1){
+        display: none;
+    }
 }
 
 main .box div{
